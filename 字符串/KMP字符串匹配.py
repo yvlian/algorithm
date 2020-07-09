@@ -1,4 +1,4 @@
-def get_pnext(p):
+def get_pnext(p):#有两种获取方式，这里表示的是当前字符串的前后缀公共长度。还有一种是字符前面的串前后公共长度+1
     pnext, L = [0], len(p)
     for i in range(1, L):
         k = pnext[i - 1]
@@ -34,5 +34,6 @@ def strStr(s, p):
         return i - Lp
     return -1
 
-p = ['a','b','a','b','a','a','b','c','a','b','c','d','e','a','b']
+# p = ['a','b','a','b','a','a','b','c','a','b','c','d','e','a','b']
+p = ['a','a','a','b']
 get_pnext(p)

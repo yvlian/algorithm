@@ -59,3 +59,5 @@ class Solution(object):
 a = 'abbad'
 solution = Solution()
 print(solution.longestPalindrome(a))
+
+int(-1)

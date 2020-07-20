@@ -30,7 +30,7 @@ class Solution(object):
         index = r.index(max_r)
         return s1[index - max_r + 1:index + max_r - 1].replace('#', '')
 s = Solution()
-print(s.longestPalindrome("ababd"))
+print(s.longestPalindrome("abbaababd"))
 
 
 #动态规划
@@ -43,6 +43,7 @@ class Solution(object):
         l = len(s)
         if l == 0:
             return ''
+        #m[i][j]v表示 s[i:j+1]是否是回文字符串
         m = [[False for _ in range(l)] for _ in range(l)]
         index = 0
         max_l = 1

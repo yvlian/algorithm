@@ -7,8 +7,8 @@ class Solution(object):
         i,j = l,r
         key = l
         while True:
-            while x[j] >= x[key] and j > l:j -= 1
-            while x[i] <= x[key] and i < r:i += 1
+            while j > l and x[j] >= x[key]:j -= 1
+            while i < r and x[i] <= x[key]:i += 1
             if i >= j:break
             self.swap(x,i,j)
         self.swap(x,j,key)

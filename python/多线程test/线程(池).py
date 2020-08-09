@@ -169,11 +169,6 @@ if __name__ == '__main__':
     # tp.close()
     # tp.join()
 
-    import  multiprocessing
-    from multiprocessing import Array
-
-    Array('i', range(10))
-
     '''
         t=threading.Thread(target=func,args=(...))
         t.setDeamon(true)  把t线程设置为守护线程。守护线程是一种后台线程，当主线程结束，守护线程也会结束。e.g.python垃圾回收线程。
@@ -240,8 +235,11 @@ if __name__ == '__main__':
             一般会采用Rlock进行进/线程锁的设定。RLock可以锁两次，重进入
         线程同步独有的:
             Semaphore Lock的加强版，可以被多个线程同时拥有，而Lock只能被某一个线程拥有。
+                semap = threading.Semaphore(value=1)  semap.acquire() 如果多个acquire()调用被阻塞，release()将恰好唤醒一个，可以随机，可以顺序。
             Event对象：它是线程间通信的方式，相当于信号，一个线程可以给另外一个线程发送信号后让其执行操作。
+                event = threading.Event() event.set() event.is_set()
             Condition对象：其可以在某些事件触发或者达到特定的条件后才处理数据
+                 condition = threading.Condition(lock=None) condition.wait(timeout=None) condition.notify(n=1)/notify_all()
         进程同步独有的：
             共享内存(如果不适用共享内存的话，进程会各自持有一份数据，默认无法共享数据)
             v = multiprocessing.Value('i',range(10)) i表示整型 c char类型 l long类型 d double类型

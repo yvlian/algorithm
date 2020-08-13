@@ -61,6 +61,18 @@ dp[0][0] = 0 dp[0][a[0]]=a[0]
 dp[i][j] = max(dp[i-1][j],dp[i-1][j+a[i]]+a[i],dp[i-1][abs(j-a[i])]+a[i])
 扔掉的部分为：sum(a)-dp[n-1][0]
 
+对于数组a,长度为n,a[i]表示从位置i可以一次向左或向右跳1~a[i]步，求从位置0出发跳到位置n-1,最少跳跃次数k?
+dp[i]表示从位置i跳到位置n-1的最少跳跃次数
+dp[n-1]=0
+for i in range(n-2,-1,-1):
+    t = i+a[i]
+    if t>=n-1:dp[i]=1
+    else:dp[i]=dp[t]+1
+    for j in range(i+1,n):
+        if dp[j]>dp[i]+1:dp[j]=dp[i]+1
+
+
+
 
 
 

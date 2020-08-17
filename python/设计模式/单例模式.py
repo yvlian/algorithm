@@ -28,7 +28,7 @@ class B(object):
     _instance_lock = threading.Lock()#当多个进程需要访问共享资源的时候，Lock可以用来避免访问的冲突。
     def __init__(self):
         pass
-    def __new__(cls, *args, **kwargs):  #__new__属于静态方法
+    def __new__(cls, *args, **kwargs):  # @staticmethod __new__属于静态方法
         print('__new__ is called.')
         if not hasattr(B, "_instance"):
             with B._instance_lock:

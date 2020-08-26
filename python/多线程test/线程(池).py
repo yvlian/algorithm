@@ -193,12 +193,19 @@ if __name__ == '__main__':
         
         线程池 multiprocessing.ThreadPool
         进程池 pool = multiprocessing.Pool(processes=thread_num)
-        #阻塞方式执行，如果指定了回调函数，则它应该是可调用的，它接受单个参数。
+        
+        p.s.需要回调函数的场景：进程池中任何一个任务一旦处理完了，就立即告知主进程：我好了额，你可以处理我的结果了。
+        主进程则调用一个函数去处理该结果，该函数即回调函数我们可以把耗时间（阻塞）的任务放到进程池中，
+        然后指定回调函数（主进程负责执行），这样主进程在执行回调函数时就省去了I/O的过程，直接拿到的是任务的结果。
+        子进程执行返回的结果做为回调函数的参数传入。回调函数是在主进程中执行的。回调函数适用于子进程数多且耗时时间长的场景.
+        
+        
+        #阻塞方式执行，如果指定了回调函数，则它应该是可调用的，它接受单个参数--》func的返回结果。
         #当结果变为就绪时，将对其应用回调，即除非调用失败，在这种情况下将应用error_callback。
         #如果指定了error_callback，那么它应该是一个可调用的，它接受一个参数。
         #如果目标函数失败，则使用异常实例调用error_callback。
         #回调应立即完成，否则处理结果的线程将被阻止。
-        result = pool.apply(func=func,args=(...),callback=...,error_callback)
+        result = pool.apply(func=func,args=(...),callback=...,error_callback)  #callback的参数是func的返回结果
         result = pool.apply_async(func=func,args=(...),callback=...,error_callback) 非阻塞方式执行回调
         #get是阻塞get,所以不能直接在apply_async后使用，否则会造成顺序执行，可以先把result加入到一个列表中，apply_async所有进程后，在统一get
         result.get(timeout=None) 

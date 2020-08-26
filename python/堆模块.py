@@ -10,6 +10,7 @@ for x in d:
     heapq.heappush(heap,x)
 for i in range(len(d)):
     v = heapq.heappop(heap)
+    heapq.0
     print(v,end=' ')
 print('')
 

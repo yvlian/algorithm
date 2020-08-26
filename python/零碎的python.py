@@ -61,7 +61,7 @@ b = ['a','b','c','d','e']#c b d e a
 ans = [y for x,y in sorted(zip(a,b))]
 print(ans)
 
-print('python计算排列组合的具体值')
+print('python计算排列python组合的具体值')
 from scipy.special import comb,perm
 print('comb:',comb(3,2))
 print('perm:',perm(3,2))

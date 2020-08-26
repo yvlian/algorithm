@@ -71,12 +71,29 @@ python的模块就是天然的单例模式，因为模块在第一次导入时�
  因为 .py 文件是可直接看到源码的，若是软件开发商的话，不可能把源码泄漏出去？
  所以，就需编译成 .pyc 后再发布。
 
-.pyc文件默认情况下不会自动生成 
+.pyc文件默认情况下不会自动生成
  若你在命令行直接输入“python path/to/projectDir”（假设projectDir目录含有“__main__.py”文件，以及其他将要调用的模块），
  那么程序运行结束后便自动为当前目录下所有的脚本生成字节码文件，并保存于本地新文件夹__pycache__当中。
  （这也有可能是IDE写小项目时自动生成.pyc文件的原因，不过问题描述略微暧昧。详情参见上面知乎问题板块）
 
 .pyd 文件并不是用 python 编写成的，.pyd 文件一般是其他语言编写的 python 扩展模块。
 .pyd 文件是用 D 语言按照一定格式编写，并处理成二进制的文件。
-'''
+# '''
+#
 
+import time
+def cal_time(func):
+    def inner(*args,**kargs):
+        start = time.time()
+        f =func(*args,**kargs)
+        time.sleep(1)
+        stop = time.time()
+        print(stop-start)
+        return f
+    return inner
+@cal_time
+def add(a,b):
+    # print(a+b)
+    return a+b
+ans = add(1,2)
+print(ans)

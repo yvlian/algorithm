@@ -34,22 +34,32 @@ triangle = SimpleShapeFactory().get_shape('Triangle')
 # （1）客户端不需要知道它所创建的对象的类。例子中我们不知道每个形状的类具体叫什么名，只知道创建它的工厂名就可以创建形状。
 # （2）客户端可以通过子类来指定创建对应的对象。
 import abc
-class AbstractShapeFactory(object):
+class Shape(object):
     __metaclass = abc.ABCMeta
     @abc.abstractmethod
-    def get_shape(self):
+    def draw(self):
         pass
-class TriangleFactory(AbstractShapeFactory):
-    def get_shape(self):
-        return Triangle2D()
-class CircleFactory(AbstractShapeFactory):
-    def get_shape(self):
-        return Circle2D()
-
+class Triangle(Shape):
+    def draw(self):
+        print('Triangle')
+class Circle(Shape):
+    def draw(self):
+        print('Circle')
+class ShapeFactory(object):
+    @staticmethod
+    def get_shape(shape_type):
+        if not shape_type:return None
+        if shape_type == 'Triangle':
+            return Triangle()
+        elif shape_type == 'Cicle':
+            return Circle()
+        return None
 print('---------------工厂方法----------')
-circle = CircleFactory().get_shape()
-triangle = TriangleFactory().get_shape()
+triangle = ShapeFactory().get_shape('Triangle')
+circle = ShapeFactory().get_shape('Cicle')
 
+circle.draw()
+triangle.draw()
 #抽象工厂
 # （1）和工厂方法一样客户端不需要知道它所创建的对象的类。
 # （2）需要一组对象共同完成某种功能时。并且可能存在多组对象完成不同功能的情况。

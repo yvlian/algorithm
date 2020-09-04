@@ -115,27 +115,27 @@ if __name__ == '__main__':
     # #首先在全局中定义thread_lock=threading.Lock。
     # # 在run函数中，执行代码的最前面加上thread_lock.acquire(),执行代码的后面加thread_lock.release()
 
-    print('+++++++++++++++++使用queue同步线程、拿到函数的返回值+++++++++++++++++++++++++')
-    #队列（Queue、LifoQueue）都实现了锁原语，能够在多线程中直接使用。可以使用队列来实现线程间的同步。
-
-    def job(a,q):
-        for i in range(len(a)):
-            a[i]**=2
-        # return a 不适用return，把返回值放到q中
-        q.put(a)
-    q = queue.Queue()
-    threads = []
-    data = [[1,2,3],[3,4,5],[4,4,4],[5,5,6]]
-    for i in range(4):
-        t = threading.Thread(target=job,args=(data[i],q))
-        t.start()
-        threads.append(t)
-    for t in threads:
-        t.join()
-    results = []
-    for _ in range(4):
-        results.append(q.get())
-    print(results)
+    # print('+++++++++++++++++使用queue同步线程、拿到函数的返回值+++++++++++++++++++++++++')
+    # #队列（Queue、LifoQueue）都实现了锁原语，能够在多线程中直接使用。可以使用队列来实现线程间的同步。
+    #
+    # def job(a,q):
+    #     for i in range(len(a)):
+    #         a[i]**=2
+    #     # return a 不适用return，把返回值放到q中
+    #     q.put(a)
+    # q = queue.Queue()
+    # threads = []
+    # data = [[1,2,3],[3,4,5],[4,4,4],[5,5,6]]
+    # for i in range(4):
+    #     t = threading.Thread(target=job,args=(data[i],q))
+    #     t.start()
+    #     threads.append(t)
+    # for t in threads:
+    #     t.join()
+    # results = []
+    # for _ in range(4):
+    #     results.append(q.get())
+    # print(results)
     # queue_ = queue.Queue()
     # # 加入拥有100个任务的队列
     # for i in range(100):
@@ -156,18 +156,22 @@ if __name__ == '__main__':
     # print("cost all time: %s" % (end - start))
     #
     # print('+++++++++++++++++线程池:使用ThreadPool+++++++++++++++++++++++++')
-    # def my_print(i):
-    #     print("task start {}".format(i))
-    #     time.sleep(4)
-    #     print("task end {}".format(i))
-    # tp = ThreadPool(10)
-    # # tp = Pool(10)
-    # for i in range(10):
-    #     print(i)
-    #     tp.apply_async(my_print, args=(i,))  #非阻塞的方式执行函数
-    #     # tp.apply(my_print, args=(i,))  #阻塞的方式执行函数
-    # tp.close()
-    # tp.join()
+    def my_print(i):
+        print("task start {}".format(i))
+        time.sleep(4)
+        print("task end {}".format(i))
+    import time
+    begin = time.time()
+    tp = ThreadPool(2)
+    # tp = Pool(10)
+    for i in range(4):
+        print(i)
+        tp.apply_async(my_print, args=(i,))  #异步的方式执行函数
+        # tp.apply(my_print, args=(i,))  #同步的方式执行函数
+    tp.close()
+    tp.join()
+    end = time.time()
+    print(end-begin)
 
     '''
         t=threading.Thread(target=func,args=(...))

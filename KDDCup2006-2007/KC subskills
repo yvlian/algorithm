@@ -1,271 +1,493 @@
-Identify number as common factor
-List consecutive multiples of a number
-Identify number as common multiple
-List factor of large number
-Identify number of items
-Identify number of recipients
-Enter answer digit -- DON'T TRACK ME
-Identify Fraction using fraction shape
-Entering a given
-Enter quantity from diagram by reading
-Rewrite fraction with common denominator
-Label equivalent fraction in equivalence statement
-Identify proper fraction from option 1
-Identify proper fraction from option 2
-Compare Options - operation
-Calculate product of two numbers
-Find Y, any form
-Identify multiplier in equivalence statement
-Represent first integer on number line
-Identify that a fraction can be simplified
-Identify number of equal groups from fraction
-Identify common denominator
-Represent first fraction on number line
-Identify that a fraction can/cannot be simplified
-Identify number of desired groups
-Identify number of items in each group
-Enter group numerator
-Identify that a fraction cannot be simplified
-Label equivalent fraction in visual
-Calculate difference -- contextual
-Enter group denominator
-Enter items numerator
-Enter items denominator
-Identify improper fraction from option 1
-Identify improper fraction from option 2
-Calculate partial product -- no carry
-Label equivalent fraction on number line
-Enter digit (general money) -- DO NOT TRACK ME
-Enter money label (general) -- DO NOT TRACK ME
-Calculate partial product -- carry in and out
-Calculate sum -- non contextual
-Compare Options - simplified
-Identify number of items in each group from GCF
-Identify number of equal divisions (circle)
-Identify number of equal divisions (square)
-Calculate sum -- contextual
-Identify fraction associated with each piece of a circle
-Find X, any form
-Identify fraction associated with each piece of a square
-Calculate difference -- non contextual
-Identify number of equal divisions (vertical bar)
-Identify GCF - one number multiple of other
-Identify fraction associated with each piece of a vertical bar
-Identifying units
-Identify number of desired items
-Identify number of equal divisions on number line from desired denominator
-Enter digit (general) -- DO NOT TRACK ME
-Identify multiplier in written question -- number line
-Identify number of equal divisions (horizontal bar)
-Identify number of equal divisions in visual from fraction
-Identify multiplier in written question -- rectangle
-Identify fraction associated with each piece of a horizontal bar
-Identify GCF
-[SkillRule: Select multiply through; Multiply through]
-Enter label (general) -- DO NOT TRACK ME
-Draw larger bar -- addition/subtraction
-Draw smaller bar -- addition/subtraction
-Write expression, any form
-Calculate internal product
-Identify GCF in written question
-Identify GCF in equivalence statement
+Add trailing zeroes for decimal point
+Add trailing zeroes for quotient
+Add variable expressions
+Approximate product -- order of magnitude
+Approximate product -- percentage
+Approximate quotient -- order of magnitude
+Approximate quotient -- percentage
+Bring down dividend digit
 Calculate Part
-Draw larger bar -- multiplication
-Enter larger inital in diagram -- calculated
-Identify larger quantity -- multiplication
-Draw smaller bar -- multiplication
-Enter smaller initial in diagram -- given
-Enter total in diagram - calculated - multiplication
-Identify fractional part of improper fraction symbolically
-[SkillRule: Write improper fraction as mixed number; Rewrite term as mixed number]
-Identify fraction of desired items
-Represent second positive integer on number line as difference
-Calculate difference with positive integer
-Calculate partial product -- carry out
-Calculate partial product -- carry in
-Represent second fraction on number line as difference
-Represent second positive integer on number line as sum
-Calculate sum with positive integer
-[SkillRule: Simplify fraction; Reduce fraction]
-Represent second fraction on number line as sum
-[SkillRule: Invert divisor and multiply; Invert and Multiply]
 Calculate Total
-[SkillRule: Perform multiply through; [Typein Skill: Select multiply through]]
-[SkillRule: Select add/subtract terms; Combine like terms with same denom]
-Identify whole number upper bound
-Identify whole number lower bound
-Identify whole number of mixed number symbolically
-Convert whole number to improper fraction
-Isolate numerator of fractional part of mixed number symbolically
-Identify fractional part of mixed number symbolically
-Perform multiplication within expanded form
-Write mixed number as improper fraction
-Calculate internal difference
-Identify equal parts for multiplicand
-Identify equal parts for multiplier
-Identify length of overlap
-Represent multiplicand visually
-Represent multiplier visually
-Identify width of overlap
 Calculate area of overlap
-Correctly placing points
-Identify larger quantity -- addition
+Calculate decimal from given decimal percent
+Calculate decimal from given fraction
+Calculate decimal from given fractional percent
+Calculate decimal from given improper fraction
+Calculate decimal from given mixed number
+Calculate decimal from given percent
+Calculate decimal percent from given decimal
+Calculate decimal percent from given fraction
+Calculate decimal percent from given fractional percent
+Calculate difference -- contextual
+Calculate difference -- non contextual
+Calculate difference with negative integer
+Calculate difference with positive integer
+Calculate final amount in context
+Calculate fraction from given decimal
+Calculate fraction from given decimal percent
+Calculate fraction from given fractional percent
+Calculate fraction from given percent
+Calculate fractional percent from given decimal
+Calculate fractional percent from given decimal percent
+Calculate fractional percent from given fraction
+Calculate improper fraction from given decimal
+Calculate improper fraction from given mixed number
+Calculate improper fraction from given percent
+Calculate internal difference
+Calculate internal product
+Calculate least common denominator
+Calculate numerator of mixed number from given decimal
+Calculate numerator of mixed number from given improper fraction
+Calculate numerator of mixed number from given model
+Calculate numerator of mixed number from given percent
+Calculate part in context
+Calculate part in proportion with fractions
+Calculate part out of context
+Calculate partial product -- carry in
+Calculate partial product -- carry in and out
+Calculate partial product -- carry out
+Calculate partial product -- no carry
+Calculate percent change in context
+Calculate percent from given decimal
+Calculate percent from given fraction
+Calculate percent from given improper fraction
+Calculate percent from given mixed number
+Calculate percent in context
+Calculate percent out of context
+Calculate product -- contextual
+Calculate product -- multiply statement
+Calculate product -- of statement
+Calculate product of means or extremes
+Calculate product of two numbers
+Calculate quotient -- contextual
+Calculate quotient digit -- non zero
+Calculate quotient digit -- zero
+Calculate ratio denominator from given
+Calculate ratio numerator from given
+Calculate solution with means and extremes
+Calculate sum -- contextual
+Calculate sum -- non contextual
+Calculate sum of fractional parts
+Calculate sum of whole number parts
+Calculate sum with negative integer
+Calculate sum with positive integer
+Calculate total in context
+Calculate total in proportion with fractions
+Calculate total out of context
+Calculate unit rate
+Calculate whole number part of mixed number from given decimal
+Calculate whole number part of mixed number from given improper fraction
+Calculate whole number part of mixed number from given model
+Calculate whole number part of mixed number from given percent
+Changing axis bounds
+Changing axis intervals
+Choose mean
+Choose median
+Choose mode
+Choose operator in fractional identity
+Compare Options - operation
+Compare Options - simplified
+Compare differences - added internal
+Compare differences - added outlier
+Compare differences - removed outlier
+Compare fractions from contextual problem
 Compare fractions with like denominators
 Compare fractions with unlike denominators
-Enter added quantity in diagram
-Calculate quotient digit -- non zero
-Enter quantity from diagram by calculating
+Compare means - added internal
+Compare means - added outlier
+Compare means - removed outlier
+Compare medians - added internal
+Compare medians - added outlier
+Compare medians - removed outlier
+Compare point and original mean - added internal
+Compare point and original mean - added outlier
+Compare point and original mean - removed outlier
+Compare probabilities -- different trials
+Compare probabilities -- same trials
+Compare unit rates
+Convert fraction to decimal with division
+Convert improper fraction to whole number
+Convert mixed number to decimal with zero (denom a factor of 10^N)
+Convert mixed number to decimal with zero (denom already 10^N)
+Convert mixed number to decimal without zero (denom a factor of 10^N)
+Convert mixed number to decimal without zero (denom already 10^N)
+Convert proper fraction to decimal with zero (denom a factor of 10^N)
+Convert proper fraction to decimal with zero (denom already 10^N)
+Convert proper fraction to decimal without zero (denom a factor of 10^N)
+Convert proper fraction to decimal without zero (denom already 10^N)
+Convert whole number to improper fraction
 Copy initial in diagram
-Enter initial in diagram -- given
+Correctly placing points
+Count number of shaded parts in circle (contiguous)
+Count number of shaded parts in circle (discontiguous)
+Count number of shaded parts in horizontal bar (contiguous)
+Count number of shaded parts in horizontal bar (discontiguous)
+Count number of shaded parts in square (contiguous)
+Count number of shaded parts in square (discontiguous)
+Count number of shaded parts in vertical bar (contiguous)
+Count number of shaded parts in vertical bar (discontiguous)
+Define variable
+Define variable expression
+Draw larger bar -- addition/subtraction
+Draw larger bar -- multiplication
+Draw smaller bar -- addition/subtraction
+Draw smaller bar -- multiplication
+Enter Calculated value of rate
+Enter Calculated value of ratio
+Enter added quantity in diagram
+Enter amount of change with variable
+Enter answer digit -- DON'T TRACK ME
+Enter calculated amount of change in proportion
+Enter calculated original amount in proportion
+Enter decimal equivalent of word form
+Enter decimal from given model
+Enter decimal probability of event
+Enter denominator of form of 1
+Enter denominator of given fraction in proportion
+Enter denominator of given rate in proportion
+Enter denominator of given unit rate in proportion
+Enter digit (general money) -- DO NOT TRACK ME
+Enter digit (general) -- DO NOT TRACK ME
+Enter experimental probability for large number
+Enter experimental probability for medium number
+Enter experimental probability for small number
 Enter first extreme in equation
 Enter first mean in equation
-Calculate product of means or extremes
-Identify LCM - one number multiple of other
-Enter total in diagram - calculated - addition
-Calculate solution with means and extremes
-Enter given total in proportion
-Write fraction with least common denominator
-Enter proportion label in numerator
-Enter proportion label in denominator
-[SkillRule: Write mixed number as improper fraction; Rewrite terms as improper fractions]
-Identify that an improper fraction can/cannot be simplified
-Rewrite adding negative integer
-Identify that a mixed number can/cannot be simplified
-Represent second negative integer on number line as sum
-Calculate sum with negative integer
-Enter decimal from given model
-Enter percent from given model
-Enter given decimal
-Identify LCM
-Bring down dividend digit
-Calculate percent from given decimal
-[SkillRule: Perform invert divisor and multiply; [Typein Skill: Invert divisor and multiply]]
-Enter given part in proportion
-Calculate part in context
-Enter numerator of given percent in proportion
-Calculate total in context
-Identify percent change as increase or decrease
-Enter given percent
-Calculate decimal from given percent
-Rewrite subtracting negative integer
-Represent second negative integer on number line as difference
-Calculate difference with negative integer
-Calculate fraction from given decimal
-Identify LCM - is product
-Enter given original amount in proportion
-Enter part in proportion with variable
-[SkillRule: Rewrite fraction with common denominator; Rewrite with common denom]
-Changing axis bounds
-Simplify fraction
-Enter numerator of percent change with variable
-[SkillRule: Perform write mixed number as improper fraction; [Typein Skill: Write mixed number as improper fraction]]
-Calculate decimal from given fraction
-Enter given fraction
-Calculate percent change in context
-Enter label of final answer.
-Identify larger quantity -- subtraction
-Enter numerator of percent with variable
-Rewrite adding positive integer
-Choose operator in fractional identity
-Calculate percent in context
 Enter fraction from given model
-Compare fractions from contextual problem
-Enter smaller inital in diagram -- calculated
-Identify no more factors
-Place decimal point in sum/difference
-Calculate fraction from given percent
-Identify operator
-Position divisor
-[SkillRule: Consolidate vars, no coeff; CLT]
-Position dividend
-Place decimal point in quotient
-Enter subtracted quantity in diagram
-Calculate quotient -- contextual
-Enter larger initial in diagram -- given
-Calculate sum of whole number parts
-Write decimal as fraction
-Changing axis intervals
-Enter total in diagram - calculated - subtraction
-Calculate product -- multiply statement
-Rewrite subtracting positive integer
-Calculate percent from given fraction
-Labelling the axes
-Enter total in proportion with variable
-Enter calculated amount of change in proportion
+Enter fractional probability of event
 Enter given amount of change in proportion
-Identify whole number of improper fraction symbolically
-[SkillRule: Add/Subtract; [Typein Skill: {Isolate positive; Isolate negative; Remove constant; Consolidate vars, no coeff; Consolidate vars with coeff; Consolidate vars, any}]]
-Identify number of equal divisions (number line)
-Enter given percent change in proportion
-Identify fraction associated with each segment of a number line
-Enter amount of change with variable
-Calculate final amount in context
-Convert improper fraction to whole number
-Calculate product -- of statement
-Enter ratio label in numerator
-Enter ratio label in denominator
-Write improper fraction as mixed number
-Enter label of final answer
-Enter ratio using a colon
-Approximate quotient -- order of magnitude
-[SkillRule: Isolate positive; x+a=b, positive]
-Write whole number from given exponential
-[SkillRule: Remove positive coefficient; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
-Calculate decimal from given fractional percent
+Enter given decimal
+Enter given decimal percent
+Enter given fraction
 Enter given fractional percent
-Calculate decimal percent from given fractional percent
-Calculate fraction from given fractional percent
-[SkillRule: Remove constant; {ax+b=c, positive; ax+b=c, negative; x+a=b, positive; x+a=b, negative; [var expr]+[const expr]=[const expr], positive; [var expr]+[const expr]=[const expr], negative; [var expr]+[const expr]=[const expr], all; Combine constants to right; Combine constants to left; a-x=b, positive; a/x+b=c, positive; a/x+b=c, negative}]
-Enter total in diagram - given
-[SkillRule: Consolidate vars with coeff; CLT]
-[SkillRule: Remove negative coefficient; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
-simplify-fractions-sp
-combine-like-terms-sp
-[SkillRule: Select Multiply; {MT; MT no fraction coeff}]
-Write fraction in simplest form
-Calculate unit rate
-Enter rate label to left of "per"
+Enter given improper fraction
+Enter given original amount in proportion
+Enter given part in proportion
+Enter given percent
+Enter given percent change in proportion
 Enter given rate denominator
 Enter given rate numerator
-Enter rate label in numerator
-Enter rate label in denominator
-Enter rate label to right of "per"
-Enter variable in diagram
-Place decimal point in product
-Add trailing zeroes for quotient
-Identify tenths digit from place value
-Identify tens digit from place value
-[SkillRule: Multiply/Divide; [Typein Skill: {Remove coefficient; Variable in denominator}]]
-Add variable expressions
-Calculate product -- contextual
-Define variable expression
-Define variable
-Write base of exponential from given fraction
-Enter Calculated value of rate
-Calculate percent out of context
-Write negative exponent of exponential from given number
-Enter denominator of form of 1
-Enter numerator of form of 1
-[SkillRule: ax+b=c, negative; ax+b=c, negative]
-Write base of exponential from given whole number
-Write positive exponent of exponential from given number
-Write base of exponential from given whole number as product
-Enter given ratio numerator
 Enter given ratio denominator
+Enter given ratio numerator
+Enter given total in proportion
+Enter group denominator
+Enter group numerator
+Enter hundredths multiplier as decimal
+Enter hundredths multiplier as fraction
+Enter improper fraction from given model
+Enter initial in diagram -- calculated
+Enter initial in diagram -- given
+Enter items denominator
+Enter items numerator
+Enter label (general) -- DO NOT TRACK ME
+Enter label of final answer
+Enter label of final answer.
+Enter larger inital in diagram -- calculated
+Enter larger initial in diagram -- calculated
+Enter larger initial in diagram -- given
+Enter mean
+Enter median - even entries
+Enter median - odd entries
+Enter money label (general) -- DO NOT TRACK ME
+Enter new mean
+Enter new median
+Enter number of desired outcomes from picture
+Enter number of desired outcomes from verbal description
+Enter number of entries
+Enter number of outcomes for event 1 in table
+Enter number of outcomes for event 1 in tool
+Enter number of outcomes for event 2 in table
+Enter number of outcomes for event 2 in tool
+Enter number of total outcomes from picture
+Enter number of total outcomes from verbal description
+Enter number of total outcomes in table
+Enter numerator of form of 1
+Enter numerator of given fraction in proportion
+Enter numerator of given mixed number
+Enter numerator of given percent in proportion
+Enter numerator of given rate in proportion
+Enter numerator of given unit rate in proportion
+Enter numerator of percent change with variable
+Enter numerator of percent with variable
+Enter ones multiplier
+Enter original mean
+Enter original median
+Enter part in proportion with variable
+Enter percent from given model
+Enter percent probability of event
+Enter proportion label in denominator
+Enter proportion label in numerator
+Enter quantity from diagram by calculating
+Enter quantity from diagram by reading
+Enter range
+Enter rate label in denominator
+Enter rate label in numerator
+Enter rate label to left of "per"
+Enter rate label to right of "per"
+Enter ratio label in denominator
+Enter ratio label in numerator
+Enter ratio label to left of "to"
+Enter ratio label to left of colon
+Enter ratio label to right of "to"
+Enter ratio label to right of colon
+Enter ratio quantity to left of "to"
+Enter ratio quantity to left of colon
+Enter ratio quantity to right of "to"
+Enter ratio quantity to right of colon
+Enter ratio using a colon
+Enter second extreme in equation
+Enter second mean in equation
+Enter single mode
+Enter smaller inital in diagram -- calculated
+Enter smaller initial in diagram -- calculated
+Enter smaller initial in diagram -- given
+Enter subtracted quantity in diagram
+Enter sum of entries
+Enter tens multiplier
+Enter tenths multiplier as decimal
+Enter tenths multiplier as fraction
+Enter theoretical probability
+Enter thousandths multiplier as decimal
+Enter thousandths multiplier as fraction
+Enter total in diagram - calculated - addition
+Enter total in diagram - calculated - multiplication
+Enter total in diagram - calculated - subtraction
+Enter total in diagram - given
+Enter total in proportion with variable
+Enter variable expression in diagram -- multiplication
+Enter variable expression in diagram -- subtraction
+Enter variable in diagram
+Enter whole number part of given mixed number
+Entering a given
+Entering the slope
+Entering the y-intercept
+Find X, any form
+Find Y, any form
+Find alternate exterior angle
+Find alternate interior angle
+Find corresponding angle
+Find supplementary angle
+Find third angle of triangle
+Find vertical angle
+Identify Fraction using fraction shape
+Identify GCF
+Identify GCF - one number multiple of other
+Identify GCF in equivalence statement
+Identify GCF in written question
+Identify LCM
+Identify LCM - is product
+Identify LCM - one number multiple of other
+Identify acute angle
+Identify angles as alternate exterior
+Identify angles as alternate interior
+Identify angles as corresponding
+Identify angles as supplementary
+Identify angles as vertical
+Identify common denominator
+Identify equal parts for multiplicand
+Identify equal parts for multiplier
+Identify fraction associated with each piece of a circle
+Identify fraction associated with each piece of a horizontal bar
+Identify fraction associated with each piece of a square
+Identify fraction associated with each piece of a vertical bar
+Identify fraction associated with each segment of a number line
+Identify fraction of desired items
 Identify fraction using number line
-Write whole number from given number as product
-Write positive exponent of exponential from given number as product
-Position protractor at vertex
-[SkillRule: Perform add/subtract terms; [Typein Skill: Select add/subtract terms]]
-perform-mult-row2-sp
-[SkillRule: Perform simplify fraction; [Typein Skill: Simplify fraction]]
-[SkillRule: Perform rewrite fraction with common denominator; [Typein Skill: Rewrite fraction with common denominator]]
-Calculate sum of fractional parts
+Identify fractional part of improper fraction symbolically
+Identify fractional part of mixed number symbolically
+Identify hundreds digit from place value
+Identify hundreds place value from digit
+Identify hundredths digit from place value
+Identify hundredths place value from digit
+Identify improper fraction from option 1
+Identify improper fraction from option 2
+Identify larger quantity -- addition
+Identify larger quantity -- multiplication
+Identify larger quantity -- subtraction
+Identify length of overlap
+Identify multiplier in equivalence statement
+Identify multiplier in written question -- number line
+Identify multiplier in written question -- rectangle
+Identify negative integer from number line
+Identify no more factors
+Identify number as common factor
+Identify number as common multiple
+Identify number of desired groups
+Identify number of desired groups--construct
+Identify number of desired items
+Identify number of equal divisions (circle)
+Identify number of equal divisions (horizontal bar)
+Identify number of equal divisions (number line)
+Identify number of equal divisions (square)
+Identify number of equal divisions (vertical bar)
+Identify number of equal divisions in visual from fraction
+Identify number of equal divisions on number line from desired denominator
+Identify number of equal groups from fraction
+Identify number of items
+Identify number of items in each group
+Identify number of items in each group from GCF
+Identify number of recipients
 Identify number of total items
-Calculate least common denominator
+Identify obtuse angle
+Identify ones place value from digit
+Identify operator
+Identify percent change as increase or decrease
+Identify positive integer from number line
+Identify proper fraction from option 1
+Identify proper fraction from option 2
+Identify right angle
+Identify straight angle
+Identify tens digit from place value
+Identify tens place value from digit
+Identify tenths digit from place value
+Identify tenths place value from digit
+Identify that a fraction can be simplified
+Identify that a fraction can/cannot be simplified
+Identify that a fraction cannot be simplified
+Identify that a mixed number can/cannot be simplified
+Identify that an improper fraction can/cannot be simplified
+Identify thousands digit from place value
+Identify thousands place value from digit
+Identify thousandths digit from place value
+Identify thousandths place value from digit
+Identify whole number lower bound
+Identify whole number of improper fraction symbolically
+Identify whole number of mixed number symbolically
+Identify whole number upper bound
+Identify width of overlap
+Identifying units
+Isolate numerator of fractional part of mixed number symbolically
+Label equivalent fraction in equivalence statement
+Label equivalent fraction in visual
+Label equivalent fraction on number line
+Labelling the axes
+List consecutive multiples of a number
+List factor of large number
+Measure acute angle
+Measure horizontal straight angle
+Measure non-horizontal straight angle
+Measure obtuse angle
+Measure right angle
+Perform multiplication within expanded form
 Place decimal point in dividend
 Place decimal point in divisor
-Calculate part in proportion with fractions
+Place decimal point in product
+Place decimal point in quotient
+Place decimal point in sum/difference
+Position dividend
+Position divisor
+Position protractor at vertex
+Represent first fraction on number line
+Represent first integer on number line
+Represent fraction using number line
+Represent multiplicand visually
+Represent multiplier visually
+Represent negative integer using number line
+Represent positive integer using number line
+Represent second fraction on number line as difference
+Represent second fraction on number line as sum
+Represent second negative integer on number line as difference
+Represent second negative integer on number line as sum
+Represent second positive integer on number line as difference
+Represent second positive integer on number line as sum
+Rewrite adding negative integer
+Rewrite adding positive integer
+Rewrite fraction with common denominator
+Rewrite subtracting negative integer
+Rewrite subtracting positive integer
+Select dependence
+Select first event
+Select number of modes
+Select second event
+Setting the slope
+Setting the y-intercept
+Simplify fraction
+Solve addition problem
+Solve multiplication problem
+Solve subtraction problem
+Write base of exponential from given fraction
+Write base of exponential from given fraction as product
+Write base of exponential from given whole number
+Write base of exponential from given whole number as product
+Write decimal as fraction
+Write decimal multiplier from given number
+Write decimal multiplier from given scientific notation
+Write decimal multiplier of scientific notation
+Write expression, any form
+Write fraction from given exponential
 Write fraction from given number as product
+Write fraction in simplest form
+Write fraction with least common denominator
+Write improper fraction as mixed number
+Write mixed number as improper fraction
+Write negative exponent of exponential from given number
+Write negative exponent of exponential from given number as product
+Write negative exponent of scientific notation
+Write negative power of ten from given number
+Write negative power of ten from given scientific notation
+Write number from negative exponent
+Write number from positive exponent
+Write positive exponent of exponential from given number
+Write positive exponent of exponential from given number as product
+Write positive exponent of scientific notation
+Write positive power of ten from given number
+Write positive power of ten from given scientific notation
+Write whole number from given exponential
+Write whole number from given number as product
+Write whole number multiplier from given number
+Write whole number multiplier from given scientific notation
+Write whole number multiplier of scientific notation
+[SkillRule: Add/Subtract; [Typein Skill: {Isolate positive; Isolate negative; Remove constant; Consolidate vars, no coeff; Consolidate vars with coeff; Consolidate vars, any}]]
+[SkillRule: Calculate Eliminate Parens; [Typein Skill: Eliminate Parens]]
+[SkillRule: Calculate difference - 2 mixed; {Fully simplified, done; Fully simplified, done no menu}]
+[SkillRule: Calculate difference - 2 proper; {Fully simplified, done; Fully simplified, done no menu}]
+[SkillRule: Calculate negative coefficient; [Typein Skill: Make variable positive]]
+[SkillRule: Calculate product - improper and proper; {Fully simplified, done; Fully simplified, done no menu}]
+[SkillRule: Calculate quotient - 2 proper; {Fully simplified, done; Fully simplified, done no menu}]
+[SkillRule: Calculate sum - improper and proper; {Fully simplified, done; Fully simplified, done no menu}]
+[SkillRule: Combine like terms, no var; CLT]
+[SkillRule: Consolidate vars with coeff; CLT]
+[SkillRule: Consolidate vars, any; {Combine variables to right, sub; Combine variables to right, add; Combine variables to right, gen; Combine variables to right; Combine variables to left, add; Combine variables to left, sub; Combine variables to left, gen; ax+b=cx; ax+b=cx, move left; ax+b=cx+d, pos; ax+b=cx+d, neg; ax+b=cx+d, move right; ax+b=cx+d, move two; ax+b=cx+d, move two2; x+b=cx+d, pos; x+b=cx+d, neg; x+b=cx+d, move right; x+b=cx+d, move two; x+b=cx+d, move two2; ax+b=x+d, pos; ax+b=x+d, neg; ax+b=x+d, move right; ax+b=x+d, move two; ax+b=x+d, move two2; x+b=x+d, pos; x+b=x+d, neg; x+b=x+d, move right; x+b=x+d, move two; x+b=x+d, move two2}]
+[SkillRule: Consolidate vars, no coeff; CLT]
+[SkillRule: Do Combine Terms - Whole; [Typein Skill: {Select Combine Terms; Combine like terms, no var}]]
+[SkillRule: Done?; {doneleft; doneright; doneleft, no menu; doneright, nomenu; done no solution; Done No Solution, domain exception; Done No Solution, range exception; done infinite solutions; done expr, standard form; done expr, standard form, no menu}]
+[SkillRule: Eliminate Parens; {CLT nested; CLT nested, parens; Distribute Mult right; Distribute Mult left; (+/-x +/-a)/b=c, mult; (+/-x +/-a)*b=c, div; [var expr]/[const expr] = [const expr], multiply; Distribute Division left; Distribute Division right; Distribute both mult left; Distribute both mult right; Distribute both divide left; Distribute both divide right; Distribute subex}]
+[SkillRule: Invert divisor and multiply; Invert and Multiply]
+[SkillRule: Isolate negative; x+a=b, negative]
+[SkillRule: Isolate positive; x+a=b, positive]
+[SkillRule: Make variable positive; {add x in -x; move neg var to other side}]
+[SkillRule: Multiply/Divide; [Typein Skill: {Remove coefficient; Variable in denominator}]]
+[SkillRule: Perform add/subtract terms; [Typein Skill: Select add/subtract terms]]
+[SkillRule: Perform invert divisor and multiply; [Typein Skill: Invert divisor and multiply]]
+[SkillRule: Perform multiply through; [Typein Skill: Select multiply through]]
+[SkillRule: Perform regroup mixed number; [Typein Skill: Select regroup mixed number]]
+[SkillRule: Perform rewrite fraction with common denominator; [Typein Skill: Rewrite fraction with common denominator]]
+[SkillRule: Perform simplify across fractions; [Typein Skill: Simplify across fractions]]
+[SkillRule: Perform simplify fraction; [Typein Skill: Simplify fraction]]
+[SkillRule: Perform write improper fraction as mixed number; [Typein Skill: Write improper fraction as mixed number]]
+[SkillRule: Perform write mixed number as improper fraction; [Typein Skill: Write mixed number as improper fraction]]
+[SkillRule: Remove constant; {ax+b=c, positive; ax+b=c, negative; x+a=b, positive; x+a=b, negative; [var expr]+[const expr]=[const expr], positive; [var expr]+[const expr]=[const expr], negative; [var expr]+[const expr]=[const expr], all; Combine constants to right; Combine constants to left; a-x=b, positive; a/x+b=c, positive; a/x+b=c, negative}]
+[SkillRule: Remove negative coefficient; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
+[SkillRule: Remove positive coefficient; {ax+b=c, divide; ax=b; [const expr]*[var fact] + [const expr] = [const expr], divide; [var expr]*[const expr] = [const expr], divide; a/b*x=c; a/b*x=c, reciprocal; ax/b=c, reciprocal; ax/b=c; x/a=b; ax=b; (+/-x +/-a)/b=c, mult; a=x*(b+c); a=x*(b-c); a=x*(b*c+d); x/a+b=c, multiply; [var expr]/[const expr] = [const expr], multiply}]
+[SkillRule: Rewrite fraction with common denominator; Rewrite with common denom]
+[SkillRule: Select Combine Terms; CLT]
+[SkillRule: Select Eliminate Parens; {CLT nested; CLT nested, parens; Distribute Mult right; Distribute Mult left; Distribute subex}]
+[SkillRule: Select Multiply/Divide, nested; {MT; MT no fraction coeff}]
+[SkillRule: Select Multiply; {MT; MT no fraction coeff}]
+[SkillRule: Select add/subtract terms; Combine like terms with same denom]
+[SkillRule: Select multiply through; Multiply through]
+[SkillRule: Select regroup mixed number; Regroup mixed number]
+[SkillRule: Select regroup polynomial; Regroup poly for subtraction]
 [SkillRule: Simplify across fractions; {Simplify Across Fractions, both numers and denoms; Simplify Across Fractions, numer-1 and denom-2; Simplify Across Fractions, denom-1 and numer-2}]
-Identify number of desired groups--construct
+[SkillRule: Simplify fraction; Reduce fraction]
+[SkillRule: Variable in denominator; {a/x=[anything]; a/x=b; a/x=b, sophisticated}]
+[SkillRule: Write improper fraction as mixed number; Rewrite term as mixed number]
+[SkillRule: Write mixed number as improper fraction; Rewrite terms as improper fractions]
+[SkillRule: ax+b=c, negative; ax+b=c, negative]
+combine-like-terms-sp
+combine-like-terms-whole-sp
+perform-mult-r-sp
+perform-mult-row2-sp
+perform-mult-sp
+perform-mult-whole-sp
+simplify-fractions-sp
